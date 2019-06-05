@@ -1,0 +1,29 @@
+{
+  "name": "pokerhand",
+  "version": "1.0.0",
+  "description": "node app to determine a poker hand",
+  "main": "src/index.js",
+  "dependencies": {
+    "pokersolver": "^2.1.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^6.1.4",
+    "rewire": "^2.5.2",
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha src/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrionSuperman/pokerHand.git"
+  },
+  "author": "Orion Supergan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrionSuperman/pokerHand/issues"
+  },
+  "homepage": "https://github.com/OrionSuperman/pokerHand#readme"
+}
